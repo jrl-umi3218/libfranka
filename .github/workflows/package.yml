@@ -17,6 +17,7 @@ jobs:
     uses: jrl-umi3218/github-actions/.github/workflows/package-project.yml@master
     with:
       latest-cmake: true
+      main-branch: main
       update-stable-and-head: true
       matrix: |
           {
